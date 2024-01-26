@@ -16,8 +16,12 @@
 def create_new_list(list1, list2):
     new_list = []
     
-    
-# Add odd numbers from the first list
+    # Add odd numbers from the first list
+    for num in list1:
+        if num % 2 != 0:
+            new_list.append(num)
+            
+            
 # Add even numbers from the second list
 # Sample list
 # Result
