@@ -27,6 +27,7 @@ def create_new_list(list1, list2):
         if num % 2 == 0:
             new_list.append(num)
 
+    return new_list
 
 # Sample list
 list1 = [10, 20, 25, 30, 35]
