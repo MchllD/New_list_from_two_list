@@ -22,7 +22,10 @@ def create_new_list(list1, list2):
             new_list.append(num)
             
             
-# Add even numbers from the second list
+    # Add even numbers from the second list
+    for num in list2:
+        if num % 2 == 0:
+            new_list.append(num)
 
 
 # Sample list
