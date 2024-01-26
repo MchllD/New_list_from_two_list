@@ -35,3 +35,5 @@ list2 = [40, 45, 60, 75, 90]
 
 
 # Result
+result_list = create_new_list(list1, list2)
+print("\nResulting List:", result_list)
